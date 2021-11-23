@@ -96,11 +96,11 @@ body {
         <div class="logo"><img src="C:\xampp\htdocs\PhpProject1\img\logo.png" width= 89%;></div>
 		<div class="header"><h1>Diocese of Bayombong Educational System</h1> </div>
 		<aside><div class="sidenav"><menu>
-				<li><a href="http://faculty2.sls.edu.ph">Saint Louis School</a></li>
+				<li><a href="">Saint Louis School</a></li>
 				<li><a href="">Saint Mary's School of Dupax Inc.</a></li> 
 				<li><a href="">Saint Catherine's School</a></li>
 				<li><a href="">Saint Jerome's Academy</a></li>
-				<li><a href="https://www.facebook.com/STAARITAOOFFICIAL">Saint Teresita's Academy</a></li>
+				<li><a href="">Saint Teresita's Academy</a></li>
 				<li><a href="">Our of Lady Fatima School Villaverde</a></li>
                                 <li><a href="">Saint Mary's Academy</a></li>
 				<li><a href="">Saint Vincent School</a></li>
