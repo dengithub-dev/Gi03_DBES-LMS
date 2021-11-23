@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <style>
 *{
   box-sizing: border-box;
@@ -87,7 +89,6 @@ body {
   }
 }
 </style>
-<html>
     <head>
         <meta charset="UTF-8">
         <title></title>
