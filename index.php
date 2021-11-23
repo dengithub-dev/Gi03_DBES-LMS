@@ -1,4 +1,10 @@
-<style>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+	<style>
 *{
   box-sizing: border-box;
 }
@@ -87,11 +93,6 @@ body {
   }
 }
 </style>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
     <body>
         <div class="logo"><img src="C:\xampp\htdocs\PhpProject1\img\logo.png" width= 89%;></div>
 		<div class="header"><h1>Diocese of Bayombong Educational System</h1> </div>
