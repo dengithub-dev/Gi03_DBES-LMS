@@ -1,10 +1,12 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-	<style>
+    <style>
 *{
   box-sizing: border-box;
 }
@@ -25,8 +27,8 @@ body {
   padding: 25px;
   text-align: right;
   font-size: 25px;
-
-}
+  float:top;
+  }
 
 /* Create three unequal columns that floats next to each other */
 .column {
@@ -34,8 +36,6 @@ body {
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
 }
-
-
 /* Style the side navigation */
 .sidenav {
   height: 70%;
@@ -47,8 +47,6 @@ body {
   background-color: #111;
   overflow-x: hidden;
 }
-
-
 /* Side navigation links */
 .sidenav a {
   color: white;
@@ -66,12 +64,10 @@ body {
 /* Middle column */
 .cmiddle{
   width: 81%;
-
-  top: 250px;
+  top: 190px;
   left: 250px;
-  float: right;
+  position:fixed;
 }
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -93,11 +89,16 @@ body {
   }
 }
 </style>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
     <body>
-        <div class="logo"><img src="C:\xampp\htdocs\PhpProject1\img\logo.png" width= 89%;></div>
-		<div class="header"><h1>Diocese of Bayombong Educational System</h1> </div>
-		<aside><div class="sidenav"><menu>
-				<li><a href="">Saint Louis School</a></li>
+        <div class="logo"> <img src="img\logo.png" width= 89%;></div>
+	<div class="header"><h1>Diocese of Bayombong Educational System</h1></div>
+            <div class="sidenav">
+                    <menu>
+				<li><a href="http://faculty2.sls.edu.ph" target="iframe">Saint Louis School</a></li>
 				<li><a href="">Saint Mary's School of Dupax Inc.</a></li> 
 				<li><a href="">Saint Catherine's School</a></li>
 				<li><a href="">Saint Jerome's Academy</a></li>
@@ -105,12 +106,12 @@ body {
 				<li><a href="">Our of Lady Fatima School Villaverde</a></li>
                                 <li><a href="">Saint Mary's Academy</a></li>
 				<li><a href="">Saint Vincent School</a></li>
-				<li><a href="">Saint Mark's School</a></li>
+                                <li><a href="Login.php" target="iframe">Saint Mark's School</a></li>
 				<li><a href="">Saint Joseph School</a></li>
 				<li><a href="">Immaculate Conception Academy</a></li>
 				<li><a href="">Our Lady of Lourdes School</a></li>
-			</menu>
-		</div></aside>
-	<div class="cmiddle"><iframe id="iframe" src="<?php echo $_GET['link'];?>" style="height:470px;width:1060px;"></iframe></div>	
+                    </menu>
+            </div>
+        <div class="cmiddle"><iframe name="iframe" src="" style="height:470px;width:1090px;"></iframe></div>	
     </body>
 </html>
